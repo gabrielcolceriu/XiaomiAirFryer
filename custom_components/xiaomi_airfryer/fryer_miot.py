@@ -108,6 +108,26 @@ MIOT_MAPPING = {
         "start_custom_cook": {"siid": 3, "aiid": 1},
         "resume_cooking": {"siid": 3, "aiid": 2}
     },
+    MODEL_FRYER_MAF14: {
+        "status": {"siid": 2, "piid": 1},  # read, notify
+        "device_fault": {"siid": 2, "piid": 2},  # read, notify
+        "target_time": {"siid": 2, "piid": 3},  # read, notify, write
+        "target_temperature": {"siid": 2, "piid": 4},  # read, notify, write
+        "left_time": {"siid": 2, "piid": 5},  # read, notify
+        "recipe_id": {"siid": 3, "piid": 1},  # read, notify, write
+        "work_time": {"siid": 3, "piid": 3},  # write
+        "work_temp": {"siid": 3, "piid": 4},  # write
+        "appoint_time": {"siid": 3, "piid": 5},  # read, notify, write
+        "food_quanty": {"siid": 3, "piid": 6},  # read, notify, write
+        "preheat_switch": {"siid": 3, "piid": 7},  # read, notify, write
+        "appoint_time_left": {"siid": 3, "piid": 8},  # read, notify, write
+        "turn_pot": {"siid": 3, "piid": 10},  # read, notify, write
+        "start_cook": {"siid": 2, "aiid": 1},
+        "cancel_cooking": {"siid": 2, "aiid": 2},
+        "pause": {"siid": 2, "aiid": 3},
+        "start_custom_cook": {"siid": 3, "aiid": 1},
+        "resume_cooking": {"siid": 3, "aiid": 2}
+    },
     MODEL_FRYER_MAF10A: {
         "status": {"siid": 2, "piid": 1},  # read, notify
         "device_fault": {"siid": 2, "piid": 2},  # read, notify
