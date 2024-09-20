@@ -16,6 +16,7 @@ Credits: Thanks to [Rytilahti](https://github.com/rytilahti/python-miio) for all
 |                             | careli.fryer.maf05a  | |
 |                             | careli.fryer.maf10a  | |
 |                             | careli.fryer.maf07  | |
+|                             | careli.fryer.maf14  | |
 | Upany Air Fryer YB-02208DTW | careli.fryer.ybaf01 | |
 | Silencare AirFryer 1.8L     | silen.fryer.sck501  |   |
 | Silencare AirFryer          | silen.fryer.sck505  | |
